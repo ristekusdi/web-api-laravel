@@ -1,8 +1,5 @@
 # Web API Laravel
-Laravel package untuk memudahkan penggunaan MCA dengan Telegram Bot USDI di aplikasi Universitas Udayana.
-
-## Motivasi
-paket laravel untuk mempermudah membuat api yang dibangun menggunakan laravel
+Laravel package untuk mempermudah membuat API yang dibangun menggunakan Laravel di lingkungan Universitas Udayana.
 
 ## Persyaratan
 
@@ -33,10 +30,6 @@ composer require ristekusdi/web-api-laravel
     */
     Ristekusdi\WebApiLaravel\WebApiLaravelServiceProvider::class,
     /*
-```
-- Tambahkan juga alias di bagian list aliases
-```php
-'WebApiLaravel' => \Ristekusdi\McaKubemqLaravel\Facades\Webapilaravel::class,
 ```
 
 - Jalankan perintah di terminal
