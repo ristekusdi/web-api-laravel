@@ -2,7 +2,7 @@
 Laravel package untuk memudahkan penggunaan MCA dengan Telegram Bot USDI di aplikasi Universitas Udayana.
 
 ## Motivasi
-Proyek ini berfungsi sebagai library untuk mengirim pesan MCA melalui KubeMQ dan secara teknis mengurangi developer untuk menuliskan sintaks curl di PHP ketika memenuhi kebutuhan intern aplikasi Universitas Udayana, di samping juga memudahkan untuk menambahkan fitur tambahan atau menyesuaikan fitur di package MCA.
+paket laravel untuk mempermudah membuat api yang dibangun menggunakan laravel
 
 ## Persyaratan
 
