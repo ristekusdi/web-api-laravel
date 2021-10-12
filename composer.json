@@ -1,0 +1,36 @@
+{
+    "name": "ristekusdi/web-api-laravel",
+    "description": "paket laravel untuk mempermudah membuat api yang dibangun menggunakan laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riset dan Teknologi USDI",
+            "email": "usdi@unud.ac.id",
+            "homepage": "https://usdi.unud.ac.id"
+        }
+    ],
+    "homepage": "https://usdi.unud.ac.id",
+    "keywords": [
+        "web",
+        "api",
+        "laravel"
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ristekusdi\\WebApiLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ristekusdi\\WebApiLaravel\\WebApiLaravelServiceProvider"
+            ],
+            "aliases": {
+                "Messagemcakube": "\\Ristekusdi\\WebApiLaravel\\Facades\\Webapi"
+            }
+        }
+    },
+    "require": {}
+}
