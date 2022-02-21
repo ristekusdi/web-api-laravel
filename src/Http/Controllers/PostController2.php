@@ -17,7 +17,7 @@ class PostController2 extends Controller
     {
         //
 
-        $posts = PostWebApi2::take(10)->get();
+        $posts = PostWebApi2::where('category_id','=',1)->where('status_id','=',1)->where('publish_id','=',1)->orderBy('created_at','DESC')->get();
 
         return response()->json($posts, 200);
     }
